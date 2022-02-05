@@ -8,28 +8,42 @@
 
 1. Web + Mongo + DevTools
 
-    https://start.spring.io
+   - [x] https://start.spring.io
 
 2. Create Domain
     
-    User
+   - [x] User
 
 3. Create Repositories
-    
-    UserRepository extends MongoRepository<User,String>
+
+   - [x] UserRepository extends MongoRepository<User,String>
 
 4. Create DTO
-    
-    UserDTO
+
+   - [x] UserDTO
 
 5. Create Controllers
-    
-    RESTful [GET,POST,PUT,DELETE]
+
+   - [x] RESTful
+   - [x] POST
+   - [x] GET
+   - [x] PUT
+   - [x] DELETE
 
 6. Remote MongoDB 
     
-    https://mlab.com
+    - [ ] https://mlab.com
 
+### Postman
+   
+   - [x] [Collection](postman/API%20-%20Mongo.postman_collection.json)
+
+
+### Tools
+
+* [PostMan](https://www.postman.com/downloads/)
+* [Docker](https://docs.docker.com/get-docker/)
+* [IntelliJ](https://www.jetbrains.com/idea/download/#section=linux)
 
 
 

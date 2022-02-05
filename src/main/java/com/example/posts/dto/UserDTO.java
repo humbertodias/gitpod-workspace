@@ -4,14 +4,16 @@ import com.example.posts.domain.User;
 
 public class UserDTO {
 
+    private String id;
     private String nome;
     private String email;
     private String telefone;
 
     public User toEntity(){
         var domain = new User();
-        domain.setEmail(this.email);
-        domain.setName(this.nome);
+        domain.setId(id);
+        domain.setEmail(email);
+        domain.setName(nome);
         return domain;
     }
 
@@ -37,5 +39,13 @@ public class UserDTO {
 
     public void setTelefone(String telefone) {
         this.telefone = telefone;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 }

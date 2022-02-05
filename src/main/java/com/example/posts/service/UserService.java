@@ -34,10 +34,8 @@ public class UserService {
     }
 
     public User update(UserDTO userDTO){
-        // TODO
-//        var found = userRepository.findByName(userDTO.getNome());
-//        return userRepository.save(userDTO.toEntity());
-        return new User();
+        var entity = userDTO.toEntity();
+        return userRepository.save(entity);
     }
 
 }
